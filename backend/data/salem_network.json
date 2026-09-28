@@ -1,0 +1,340 @@
+{
+  "city": "Salem, Tamil Nadu",
+  "coordinates_center": {
+    "lat": 11.6643,
+    "lng": 78.1460
+  },
+  "nodes": [
+    {
+      "id": "NODE_SALEM_JN",
+      "name": "Salem Junction (Suramangalam)",
+      "lat": 11.6702,
+      "lng": 78.1189,
+      "type": "transit_hub"
+    },
+    {
+      "id": "NODE_SURAMANGALAM",
+      "name": "Suramangalam Main",
+      "lat": 11.6730,
+      "lng": 78.1235,
+      "type": "intersection"
+    },
+    {
+      "id": "NODE_MEYYANUR",
+      "name": "Meyyanur / New Bus Stand",
+      "lat": 11.6650,
+      "lng": 78.1350,
+      "type": "transit_hub"
+    },
+    {
+      "id": "NODE_FOUR_ROADS",
+      "name": "Salem 4-Roads Junction",
+      "lat": 11.6608,
+      "lng": 78.1442,
+      "type": "major_arterial"
+    },
+    {
+      "id": "NODE_COLLECTORATE",
+      "name": "Salem District Collectorate",
+      "lat": 11.6670,
+      "lng": 78.1520,
+      "type": "command_center"
+    },
+    {
+      "id": "NODE_HASTHAMPATTI",
+      "name": "Hasthampatti Roundabout",
+      "lat": 11.6765,
+      "lng": 78.1565,
+      "type": "intersection"
+    },
+    {
+      "id": "NODE_ALAGAPURAM",
+      "name": "Alagapuram Sector",
+      "lat": 11.6820,
+      "lng": 78.1330,
+      "type": "intersection"
+    },
+    {
+      "id": "NODE_GORIMEDU",
+      "name": "Gorimedu North Hills Approach",
+      "lat": 11.6980,
+      "lng": 78.1720,
+      "type": "shelter_access"
+    },
+    {
+      "id": "NODE_GMKMC_HOSP",
+      "name": "GMKMC Govt Medical College & Hospital",
+      "lat": 11.6580,
+      "lng": 78.1590,
+      "type": "hospital_access"
+    },
+    {
+      "id": "NODE_AMMAPET",
+      "name": "Ammapet Main Junction",
+      "lat": 11.6540,
+      "lng": 78.1812,
+      "type": "intersection"
+    },
+    {
+      "id": "NODE_AYODHIYAPATTINAM",
+      "name": "Ayodhiyapattinam East Gateway",
+      "lat": 11.6520,
+      "lng": 78.2300,
+      "type": "shelter_access"
+    },
+    {
+      "id": "NODE_SHEVAPET",
+      "name": "Shevapet River Market",
+      "lat": 11.6492,
+      "lng": 78.1360,
+      "type": "high_vulnerability_zone"
+    },
+    {
+      "id": "NODE_GUGAI",
+      "name": "Gugai Thirumanimutharu Basin",
+      "lat": 11.6405,
+      "lng": 78.1495,
+      "type": "flood_hazard_zone"
+    },
+    {
+      "id": "NODE_ANNADHANAPATTI",
+      "name": "Annadhanapatti South",
+      "lat": 11.6360,
+      "lng": 78.1410,
+      "type": "residential_zone"
+    },
+    {
+      "id": "NODE_KONDALAMPATTI",
+      "name": "Kondalampatti NH44 Junction",
+      "lat": 11.6210,
+      "lng": 78.1250,
+      "type": "major_arterial"
+    },
+    {
+      "id": "NODE_SEELANAIKENPATTI",
+      "name": "Seelanaickenpatti Bypass Junction",
+      "lat": 11.6235,
+      "lng": 78.1630,
+      "type": "major_arterial"
+    },
+    {
+      "id": "NODE_STEEL_PLANT",
+      "name": "Salem Steel Plant Township / Mega Safe Base",
+      "lat": 11.6680,
+      "lng": 78.0720,
+      "type": "shelter_access"
+    }
+  ],
+  "edges": [
+    {
+      "id": "EDGE_SURAM_JN",
+      "source": "NODE_SURAMANGALAM",
+      "target": "NODE_SALEM_JN",
+      "name": "Junction Main Road",
+      "distance_km": 0.8,
+      "lanes": 4,
+      "free_flow_speed_kmh": 40.0,
+      "capacity_pcu_per_hour": 2400
+    },
+    {
+      "id": "EDGE_JN_MEYYANUR",
+      "source": "NODE_SALEM_JN",
+      "target": "NODE_MEYYANUR",
+      "name": "Meyyanur Bypass Corridor",
+      "distance_km": 2.1,
+      "lanes": 4,
+      "free_flow_speed_kmh": 50.0,
+      "capacity_pcu_per_hour": 2800
+    },
+    {
+      "id": "EDGE_JN_STEELPLANT",
+      "source": "NODE_SALEM_JN",
+      "target": "NODE_STEEL_PLANT",
+      "name": "Steel Plant Express Highway",
+      "distance_km": 5.2,
+      "lanes": 4,
+      "free_flow_speed_kmh": 65.0,
+      "capacity_pcu_per_hour": 3400
+    },
+    {
+      "id": "EDGE_MEYYANUR_4ROADS",
+      "source": "NODE_MEYYANUR",
+      "target": "NODE_FOUR_ROADS",
+      "name": "Omalur Main Road Arterial",
+      "distance_km": 1.4,
+      "lanes": 4,
+      "free_flow_speed_kmh": 45.0,
+      "capacity_pcu_per_hour": 2600
+    },
+    {
+      "id": "EDGE_ALAGA_4ROADS",
+      "source": "NODE_ALAGAPURAM",
+      "target": "NODE_FOUR_ROADS",
+      "name": "Alagapuram Link Road",
+      "distance_km": 2.6,
+      "lanes": 2,
+      "free_flow_speed_kmh": 35.0,
+      "capacity_pcu_per_hour": 1600
+    },
+    {
+      "id": "EDGE_ALAGA_HASTHAM",
+      "source": "NODE_ALAGAPURAM",
+      "target": "NODE_HASTHAMPATTI",
+      "name": "Saradha College Road",
+      "distance_km": 2.8,
+      "lanes": 2,
+      "free_flow_speed_kmh": 40.0,
+      "capacity_pcu_per_hour": 1700
+    },
+    {
+      "id": "EDGE_4ROADS_COLLECT",
+      "source": "NODE_FOUR_ROADS",
+      "target": "NODE_COLLECTORATE",
+      "name": "Collectorate Avenue",
+      "distance_km": 1.1,
+      "lanes": 4,
+      "free_flow_speed_kmh": 45.0,
+      "capacity_pcu_per_hour": 2500
+    },
+    {
+      "id": "EDGE_COLLECT_HASTHAM",
+      "source": "NODE_COLLECTORATE",
+      "target": "NODE_HASTHAMPATTI",
+      "name": "Cherry Road",
+      "distance_km": 1.3,
+      "lanes": 2,
+      "free_flow_speed_kmh": 35.0,
+      "capacity_pcu_per_hour": 1800
+    },
+    {
+      "id": "EDGE_HASTHAM_GORIMEDU",
+      "source": "NODE_HASTHAMPATTI",
+      "target": "NODE_GORIMEDU",
+      "name": "Yercaud Foothills Arterial",
+      "distance_km": 3.2,
+      "lanes": 4,
+      "free_flow_speed_kmh": 50.0,
+      "capacity_pcu_per_hour": 2800
+    },
+    {
+      "id": "EDGE_4ROADS_GMKMC",
+      "source": "NODE_FOUR_ROADS",
+      "target": "NODE_GMKMC_HOSP",
+      "name": "Hospital Main Arterial",
+      "distance_km": 1.8,
+      "lanes": 4,
+      "free_flow_speed_kmh": 40.0,
+      "capacity_pcu_per_hour": 2200
+    },
+    {
+      "id": "EDGE_GMKMC_AMMAPET",
+      "source": "NODE_GMKMC_HOSP",
+      "target": "NODE_AMMAPET",
+      "name": "Ammapet Colony Link",
+      "distance_km": 2.4,
+      "lanes": 2,
+      "free_flow_speed_kmh": 35.0,
+      "capacity_pcu_per_hour": 1600
+    },
+    {
+      "id": "EDGE_AMMAPET_AYODHYA",
+      "source": "NODE_AMMAPET",
+      "target": "NODE_AYODHIYAPATTINAM",
+      "name": "Salem-Attur National Highway Link",
+      "distance_km": 5.4,
+      "lanes": 4,
+      "free_flow_speed_kmh": 65.0,
+      "capacity_pcu_per_hour": 3200
+    },
+    {
+      "id": "EDGE_4ROADS_SHEVAPET",
+      "source": "NODE_FOUR_ROADS",
+      "target": "NODE_SHEVAPET",
+      "name": "Shevapet Bazaar Access (Flood Zone Choke)",
+      "distance_km": 1.7,
+      "lanes": 2,
+      "free_flow_speed_kmh": 25.0,
+      "capacity_pcu_per_hour": 1400
+    },
+    {
+      "id": "EDGE_SHEVAPET_GUGAI",
+      "source": "NODE_SHEVAPET",
+      "target": "NODE_GUGAI",
+      "name": "Thirumanimutharu River Embankment Road",
+      "distance_km": 1.8,
+      "lanes": 2,
+      "free_flow_speed_kmh": 25.0,
+      "capacity_pcu_per_hour": 1200
+    },
+    {
+      "id": "EDGE_GUGAI_GMKMC",
+      "source": "NODE_GUGAI",
+      "target": "NODE_GMKMC_HOSP",
+      "name": "Gugai Hospital Link Road",
+      "distance_km": 2.2,
+      "lanes": 2,
+      "free_flow_speed_kmh": 30.0,
+      "capacity_pcu_per_hour": 1500
+    },
+    {
+      "id": "EDGE_SHEVAPET_ANNADHAN",
+      "source": "NODE_SHEVAPET",
+      "target": "NODE_ANNADHANAPATTI",
+      "name": "Annadhanapatti Canal Road",
+      "distance_km": 1.6,
+      "lanes": 2,
+      "free_flow_speed_kmh": 30.0,
+      "capacity_pcu_per_hour": 1400
+    },
+    {
+      "id": "EDGE_ANNADHAN_KONDALAM",
+      "source": "NODE_ANNADHANAPATTI",
+      "target": "NODE_KONDALAMPATTI",
+      "name": "Kondalampatti Link Road",
+      "distance_km": 2.3,
+      "lanes": 2,
+      "free_flow_speed_kmh": 35.0,
+      "capacity_pcu_per_hour": 1800
+    },
+    {
+      "id": "EDGE_GUGAI_SEELANAIKEN",
+      "source": "NODE_GUGAI",
+      "target": "NODE_SEELANAIKENPATTI",
+      "name": "Trichy Main Road",
+      "distance_km": 2.7,
+      "lanes": 4,
+      "free_flow_speed_kmh": 50.0,
+      "capacity_pcu_per_hour": 2800
+    },
+    {
+      "id": "EDGE_SEELANAIKEN_AMMAPET",
+      "source": "NODE_SEELANAIKENPATTI",
+      "target": "NODE_AMMAPET",
+      "name": "Eastern Ring Arterial",
+      "distance_km": 3.9,
+      "lanes": 4,
+      "free_flow_speed_kmh": 55.0,
+      "capacity_pcu_per_hour": 3000
+    },
+    {
+      "id": "EDGE_KONDALAM_STEELPLANT",
+      "source": "NODE_KONDALAMPATTI",
+      "target": "NODE_STEEL_PLANT",
+      "name": "South-West Heavy Transit Bypass",
+      "distance_km": 7.4,
+      "lanes": 4,
+      "free_flow_speed_kmh": 70.0,
+      "capacity_pcu_per_hour": 3600
+    },
+    {
+      "id": "EDGE_KONDALAM_SEELANAIKEN",
+      "source": "NODE_KONDALAMPATTI",
+      "target": "NODE_SEELANAIKENPATTI",
+      "name": "NH44 / NH544 Southern Bypass Corridor",
+      "distance_km": 4.1,
+      "lanes": 6,
+      "free_flow_speed_kmh": 75.0,
+      "capacity_pcu_per_hour": 4800
+    }
+  ]
+}
