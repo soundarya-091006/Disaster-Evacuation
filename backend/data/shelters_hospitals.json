@@ -1,0 +1,62 @@
+[
+  {
+    "id": "SHELTER_GMKMC",
+    "name": "GMKMC Govt Medical College Hospital (Triage & Quarantine)",
+    "type": "hospital_quarantine",
+    "access_node_id": "NODE_GMKMC_HOSP",
+    "lat": 11.6580,
+    "lng": 78.1590,
+    "total_capacity": 1400,
+    "occupied": 420,
+    "quarantine_beds_total": 450,
+    "quarantine_beds_occupied": 185,
+    "intake_rate_per_min": 35.0,
+    "status": "OPEN",
+    "assigned_zone_ids": ["ZONE_SHEVAPET", "ZONE_GUGAI"]
+  },
+  {
+    "id": "SHELTER_STEEL_PLANT",
+    "name": "Salem Steel Plant Township Mega Evac Center",
+    "type": "relief_shelter",
+    "access_node_id": "NODE_STEEL_PLANT",
+    "lat": 11.6680,
+    "lng": 78.0720,
+    "total_capacity": 2500,
+    "occupied": 380,
+    "quarantine_beds_total": 300,
+    "quarantine_beds_occupied": 45,
+    "intake_rate_per_min": 60.0,
+    "status": "OPEN",
+    "assigned_zone_ids": ["ZONE_SURAMANGALAM", "ZONE_ANNADHANAPATTI"]
+  },
+  {
+    "id": "SHELTER_GORIMEDU",
+    "name": "Gorimedu Elevated Foothills Relief Camp",
+    "type": "community_safe_zone",
+    "access_node_id": "NODE_GORIMEDU",
+    "lat": 11.6980,
+    "lng": 78.1720,
+    "total_capacity": 1200,
+    "occupied": 210,
+    "quarantine_beds_total": 150,
+    "quarantine_beds_occupied": 20,
+    "intake_rate_per_min": 25.0,
+    "status": "OPEN",
+    "assigned_zone_ids": ["ZONE_ALAGAPURAM", "ZONE_HASTHAMPATTI"]
+  },
+  {
+    "id": "SHELTER_AYODHYA",
+    "name": "Ayodhiyapattinam East Highway Safe Refuge",
+    "type": "relief_shelter",
+    "access_node_id": "NODE_AYODHIYAPATTINAM",
+    "lat": 11.6520,
+    "lng": 78.2300,
+    "total_capacity": 1600,
+    "occupied": 310,
+    "quarantine_beds_total": 200,
+    "quarantine_beds_occupied": 55,
+    "intake_rate_per_min": 40.0,
+    "status": "OPEN",
+    "assigned_zone_ids": ["ZONE_AMMAPET"]
+  }
+]

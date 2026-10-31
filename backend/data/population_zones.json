@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ZONE_SHEVAPET",
+    "name": "Shevapet Old Bazaar & Riverfront",
+    "center": {
+      "lat": 11.6492,
+      "lng": 78.1360
+    },
+    "boundary_coords": [
+      {"lat": 11.6540, "lng": 78.1320},
+      {"lat": 11.6530, "lng": 78.1420},
+      {"lat": 11.6440, "lng": 78.1400},
+      {"lat": 11.6450, "lng": 78.1300}
+    ],
+    "total_population": 14500,
+    "evacuated_population": 2200,
+    "active_infections": 340,
+    "hazard_type": "flood_and_contagion",
+    "risk_score": 0.88,
+    "nearest_node_id": "NODE_SHEVAPET"
+  },
+  {
+    "id": "ZONE_GUGAI",
+    "name": "Gugai Thirumanimutharu Basin",
+    "center": {
+      "lat": 11.6405,
+      "lng": 78.1495
+    },
+    "boundary_coords": [
+      {"lat": 11.6460, "lng": 78.1450},
+      {"lat": 11.6440, "lng": 78.1560},
+      {"lat": 11.6350, "lng": 78.1540},
+      {"lat": 11.6360, "lng": 78.1430}
+    ],
+    "total_population": 11200,
+    "evacuated_population": 1800,
+    "active_infections": 210,
+    "hazard_type": "flood_and_contagion",
+    "risk_score": 0.92,
+    "nearest_node_id": "NODE_GUGAI"
+  },
+  {
+    "id": "ZONE_ANNADHANAPATTI",
+    "name": "Annadhanapatti South Residential",
+    "center": {
+      "lat": 11.6360,
+      "lng": 78.1410
+    },
+    "boundary_coords": [
+      {"lat": 11.6400, "lng": 78.1350},
+      {"lat": 11.6390, "lng": 78.1460},
+      {"lat": 11.6310, "lng": 78.1450},
+      {"lat": 11.6320, "lng": 78.1340}
+    ],
+    "total_population": 8800,
+    "evacuated_population": 1400,
+    "active_infections": 95,
+    "hazard_type": "disease_hotspot",
+    "risk_score": 0.65,
+    "nearest_node_id": "NODE_ANNADHANAPATTI"
+  },
+  {
+    "id": "ZONE_AMMAPET",
+    "name": "Ammapet Urban Sector",
+    "center": {
+      "lat": 11.6540,
+      "lng": 78.1812
+    },
+    "boundary_coords": [
+      {"lat": 11.6600, "lng": 78.1750},
+      {"lat": 11.6580, "lng": 78.1900},
+      {"lat": 11.6480, "lng": 78.1880},
+      {"lat": 11.6500, "lng": 78.1730}
+    ],
+    "total_population": 9500,
+    "evacuated_population": 2900,
+    "active_infections": 60,
+    "hazard_type": "moderate_hazard",
+    "risk_score": 0.42,
+    "nearest_node_id": "NODE_AMMAPET"
+  },
+  {
+    "id": "ZONE_SURAMANGALAM",
+    "name": "Suramangalam Junction District",
+    "center": {
+      "lat": 11.6730,
+      "lng": 78.1235
+    },
+    "boundary_coords": [
+      {"lat": 11.6780, "lng": 78.1180},
+      {"lat": 11.6770, "lng": 78.1290},
+      {"lat": 11.6680, "lng": 78.1280},
+      {"lat": 11.6690, "lng": 78.1170}
+    ],
+    "total_population": 7200,
+    "evacuated_population": 3600,
+    "active_infections": 30,
+    "hazard_type": "safe_transit_buffer",
+    "risk_score": 0.25,
+    "nearest_node_id": "NODE_SURAMANGALAM"
+  },
+  {
+    "id": "ZONE_ALAGAPURAM",
+    "name": "Alagapuram North District",
+    "center": {
+      "lat": 11.6820,
+      "lng": 78.1330
+    },
+    "boundary_coords": [
+      {"lat": 11.6880, "lng": 78.1280},
+      {"lat": 11.6870, "lng": 78.1400},
+      {"lat": 11.6780, "lng": 78.1380},
+      {"lat": 11.6790, "lng": 78.1260}
+    ],
+    "total_population": 6500,
+    "evacuated_population": 3100,
+    "active_infections": 22,
+    "hazard_type": "safe_transit_buffer",
+    "risk_score": 0.20,
+    "nearest_node_id": "NODE_ALAGAPURAM"
+  }
+]

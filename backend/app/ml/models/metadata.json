@@ -1,0 +1,77 @@
+{
+  "status": "TRAINED",
+  "timestamp": "2026-10-12T08:57:07Z",
+  "training_duration_seconds": 25.56,
+  "models": {
+    "traffic_lstm": {
+      "lstm_r2_score": 0.1141,
+      "lstm_rmse": 5.8683,
+      "lstm_epochs": 25,
+      "rf_r2_score": 0.9468,
+      "input_features": [
+        "congestion",
+        "speed_norm",
+        "flood_depth_norm",
+        "rainfall_norm",
+        "contagion",
+        "upstream_cong",
+        "is_closed"
+      ],
+      "horizons_supported": [
+        15,
+        30,
+        60
+      ]
+    },
+    "risk_classifier": {
+      "accuracy_pct": 91.92,
+      "f1_score": 0.9187,
+      "classes": [
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "CRITICAL"
+      ],
+      "feature_importances": {
+        "flood_depth_cm": 0.4922,
+        "contagion_score": 0.211,
+        "congestion_index": 0.0867,
+        "current_speed_kmh": 0.0519,
+        "capacity_pcu": 0.0057,
+        "rainfall_mmh": 0.0208,
+        "is_closed": 0.1317
+      }
+    },
+    "anomaly_detector": {
+      "contamination": 0.06,
+      "n_estimators": 100,
+      "mean_score": 0.068,
+      "features": [
+        "volume_pcu",
+        "speed_kmh",
+        "congestion_index",
+        "volume_change_ratio",
+        "speed_drop_ratio"
+      ]
+    },
+    "shelter_predictor": {
+      "r2_score": 0.987,
+      "targets": [
+        "occupancy_15m",
+        "occupancy_30m",
+        "occupancy_60m"
+      ]
+    },
+    "q_routing_agent": {
+      "episodes": 2500,
+      "states_learned": 64,
+      "target_shelters": [
+        "NODE_GMKMC_HOSP",
+        "NODE_STEEL_PLANT",
+        "NODE_GORIMEDU",
+        "NODE_AYODHIYAPATTINAM"
+      ],
+      "algorithm": "Q-Learning Graph Router (SARSA/TD-0)"
+    }
+  }
+}
